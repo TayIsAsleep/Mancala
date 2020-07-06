@@ -129,17 +129,13 @@ def Mancala(players):
             print(drawbox(8) + front_p2_malancas + combine(12) + drawbox(8) + front_p2_malancas + combine(11) + drawbox(8) + front_p2_malancas + combine(10) + drawbox(8) + front_p2_malancas + combine(9) + drawbox(8) + front_p2_malancas + combine(8) + drawbox(8) + front_p2_malancas + combine(7) + drawbox(8))
             print(drawbox(window_x))
             print(drawbox(7) + "(13)" + drawbox(6) + "(12)" + drawbox(6) + "(11)" + drawbox(6) + "(10)" + drawbox(6) + "(09)" + drawbox(6) + "(08)" + drawbox(7))
-            
             print(drawbox(window_x))
             print(drawbox(7) + checkhand(13) + drawbox(6) + checkhand(12) + drawbox(6) + checkhand(11) + drawbox(6) + checkhand(10) + drawbox(6) + checkhand(9) + drawbox(6) + checkhand(8) + drawbox(7))
             print(drawbox(window_x))
-                   
             print (drawbox(2) + front_p2_nest + fix_nr(slots[13]) + drawbox(2) + checkhand(14) + drawbox(48) + checkhand(7) + drawbox(2) + front_p1_nest + fix_nr(slots[6])  + drawbox(2))
-             
             print(drawbox(window_x))
             print(drawbox(7) + checkhand(1) + drawbox(6) + checkhand(2) + drawbox(6) + checkhand(3) + drawbox(6) + checkhand(4) + drawbox(6) + checkhand(5) + drawbox(6) + checkhand(6) + drawbox(7))
-            print(drawbox(window_x))
-            
+            print(drawbox(window_x))   
             print(drawbox(7) + "(01)" + drawbox(6) + "(02)" + drawbox(6) + "(03)" + drawbox(6) + "(04)" + drawbox(6) + "(05)" + drawbox(6) + "(06)" + drawbox(7))
             print(drawbox(window_x))
             print(drawbox(8) + front_p1_malancas + combine(0) + drawbox(8) + front_p1_malancas + combine(1) + drawbox(8) + front_p1_malancas + combine(2) + drawbox(8) + front_p1_malancas + combine(3) + drawbox(8) + front_p1_malancas + combine(4) + drawbox(8) + front_p1_malancas + combine(5) + drawbox(8))
